@@ -8,6 +8,10 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
+
+COMMAND TO RUN PROJECT TESTS: docker-compose run --rm app sh -c "python manage.py test"
+COMMAND TO RUN: docker-compose up
+IP: localhost:8000
 """
 
 import os
